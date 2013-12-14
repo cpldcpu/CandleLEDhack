@@ -2,6 +2,10 @@
  * CandeflickerLED.c
  *
  * Created: 08.12.2013 22:51:08
+ *
+ * Emulates a Candleflicker-LED on an AVR microcontroller.
+ * Please use AVR-GCC to compile and update the defines below according to your controller.
+ *
  */ 
 
 #define   F_CPU 16000000
