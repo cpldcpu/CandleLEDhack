@@ -10,7 +10,9 @@ See [Hacking a candleflicker LED](http://cpldcpu.wordpress.com/2013/12/08/hackin
 * PatternAnalysis: Source and data of controller chip output analysis
 
 
-![Front](images/flicker-chip.jpg)
+
+
+![Chip](Images/flicker-chip.jpg)
 
 
 
