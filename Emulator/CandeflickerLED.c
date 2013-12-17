@@ -68,7 +68,7 @@ int main(void)
 			if ((FRAME_CTR&0x07)==0)  // generate a new random number every 8 cycles. In reality this is most likely bit serial
 			{
 				RAND=Rand()&0x1f;  				
-				if ((RAND&0x0c)!=0) randflag=1; // only update if valid 				
+				if ((RAND&0x0c)!=0) randflag=1; else randflag=0;// only update if valid 				
 			}
 			
 			// NEW FRAME						
